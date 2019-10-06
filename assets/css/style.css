@@ -1,0 +1,23 @@
+body {
+    background-color: #EAD3E2;
+}
+
+.mainHeader {
+    background-color: #D62598;
+    padding: 50px;
+}
+
+#heading {
+    font-family: 'Patua One', cursive;
+    font-size: 45px;
+    color: black;
+    text-align: center;
+}
+
+#subhead {
+    font-family: 'Raleway', sans-serif;
+    font-size: 27px;
+    color: #EAD3E2;
+    text-align: center;
+}
+
