@@ -1,19 +1,21 @@
 
-// firebase config with API key
+// // firebase config with API key
 var firebaseConfig = {
-    apiKey: "AIzaSyDDStSZoYXIxYmMOvmu7P3JjfhFfUZ9MYk",
-    authDomain: "codersbay-87082.firebaseapp.com",
-    databaseURL: "https://codersbay-87082.firebaseio.com",
-    projectId: "codersbay-87082",
+    apiKey: "AIzaSyDh3jBg4oM3IaaBFDluvveUf4fFFZ55ep4",
+    authDomain: "train-station-49955.firebaseapp.com",
+    databaseURL: "https://train-station-49955.firebaseio.com",
+    projectId: "train-station-49955",
     storageBucket: "",
-    messagingSenderId: "213389503873",
-    appId: "1:213389503873:web:922f928e54516150950c80",
-    measurementId: "G-VWW8NQZP5T"
+    messagingSenderId: "241329478404",
+    appId: "1:241329478404:web:1804624feaa592cbdc4e51"
   };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+
 
 //   initialize firebase
 
- firebase.initializeApp(config);
+//  firebase.initializeApp(config);
  var database = firebase.database();
  var currentTime = moment().format();
 
